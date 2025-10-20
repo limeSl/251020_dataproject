@@ -3,14 +3,6 @@
 #st.write(" 2025/10/20 ")
 import streamlit as st
 
-st.sidebar.markdown(
-    """
-    <h2 style='text-align: center; color:#2C3E50;'>🌏 바이브코딩 실습_20251020</h2>
-    <hr>
-    """,
-    unsafe_allow_html=True
-)
-
 st.set_page_config(page_title="MBTI 진로 추천기 🎯", page_icon="🎓")
 
 st.title("🎓 MBTI 기반 진로 추천기")
